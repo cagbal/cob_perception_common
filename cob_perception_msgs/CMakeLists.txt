@@ -20,21 +20,22 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   DIRECTORY
     msg
-  FILES 
+  FILES
     PointCloud2Array.msg
     ColorDepthImage.msg
     ColorDepthImageArray.msg
     Detection.msg
     DetectionArray.msg
     Float64ArrayStamped.msg
-    PositionMeasurement.msg 
-    PositionMeasurementArray.msg 
+    PositionMeasurement.msg
+    PositionMeasurementArray.msg
     PersonStamped.msg
     Person.msg
     People.msg
     Mask.msg
     Rect.msg
     Skeleton.msg
+    ActionRecognitionmsg.msg
 )
 
 ## Generate added messages and services with any dependencies listed here
